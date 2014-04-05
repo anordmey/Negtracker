@@ -1,0 +1,360 @@
+\documentclass[man]{apa2}
+
+\usepackage{pslatex}
+\usepackage{pdfsync}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{color}
+%\usepackage{apacite2}
+% \usepackage{amsmath}
+% \usepackage{topcapt}
+\usepackage{setspace}
+%\singlespacing
+
+
+\title{The role of context in young children's comprehension of negation}
+\author{Ann E. Nordmeyer and Michael C. Frank}
+\affiliation{Department of Psychology, Stanford University}
+
+\shorttitle{Inhibitory control and negation}
+
+
+\abstract{Negation is an important concept in human language, yet little is known about children's ability to comprehend negative sentences. In this paper, we explore how 2--5-year-old children's comprehension of negation changes depending on the referent of the negation.  We collected eye-tracking data while children watched a video in which they heard positive and negative sentences. Negative sentences, such as ``look at the boy with no apples,'' referred to a boy with nothing (Experiment 1) or a boy with an alternative object (Experiment 2).   All children showed greater difficulty in resolving the referent when negative sentences referred to the boy with nothing, despite suggestions that nonexistence negations of this type are produced early. In addition, 3- and 4-year-old children showed an initial tendency to look away from the target and towards the named noun when the referent of the negative utterance was an alternative object.  These results suggest that the context in which a negative utterance occurs influences the processing of negation in young children.\\
+\vspace{1cm}
+Keywords: negation; language development; pragmatics}
+
+\acknowledgements{Thanks especially to the staff and families at the San Jose Children's Discovery Museum. This work was supported by an NSF Graduate Research Fellowship to AEN and a John Merck Scholars Fellowship to MCF. An earlier version of this work was presented to the Cognitive Science Society in \citeA{nordmeyer2013}.
+
+~\\
+
+\noindent Address all correspondence to Ann E. Nordmeyer, Stanford University, Department of Psychology, Jordan Hall, 450 Serra Mall (Bldg. 420), Stanford, CA, 94305. Phone: 650-721-9270. E-mail: \texttt{anordmey@stanford.edu}}
+
+
+\begin{document}
+\maketitle
+
+%%%%%%%%% INTRO %%%%%%%%% 
+\section{Introduction}
+
+``No'' is among the first words that children learn, as well as one of the most important.  Negation is a fundamental element of human language---it is essential to logical systems, allows us to evaluate whether a statement is true or false, and it gives us a way to express concepts such as nonexistence.  But negation is also challenging, even for adult language users, who take longer to process negative sentences than positive ones \cite{hclark1972}.  These findings lead to an apparent paradox: How is it that negation is difficult for adults, yet acquired at such a young age?  By examining children's comprehension of negation, we can explore the challenges that children may face in mastering this important component of language.  
+
+\subsection{The acquisition of negation}
+
+Negative words and morphemes like ``no,'' ``not,'' and ``-n't'' allow speakers to express multiple, related ideas.  Three primary categories have been identified in children's early negative utterances: \emph{nonexistence}, \emph{refusal}, and \emph{denial/truth-functional} negation \cite{bloom1970, bloom1993, pea1980}.  A child expressing \emph{refusal} might say ``no go outside'' when she wants to stay inside, while a child who says ``no more juice'' to describe an empty cup is expressing \emph{nonexistence} \cite{bloom1970}.  \emph{Denial} involves making a statement about falsehood; a child might say ``that not lollipop'' if she believes a candy has been falsely identified as a lollipop.  Some authors identify additional types of negation as well: \emph{self-prohibition}, expressed when the child is about to engage in a forbidden action, and \emph{unfulfilled expectations}, used when an expected action/object is not present \cite{pea1980}.  One taxonomy identified a full 9 categories of negation, including \emph{failure, inability, epistemic negation} (e.g. ``I don't know''), and \emph{inferential negation} (i.e. negation of inferred beliefs of others) \cite{choi1988}.  Although these different taxonomies categorize negative utterances in different ways, they all recognize that negation is used in varied contexts to express a wide range of meanings.
+
+The acquisition of these different types of negation follows a long developmental trajectory. As early as 12 months, children produce negation in the form of the word ``no,'' typically to express nonexistence and refusal \cite{bloom1970, bloom1993, pea1980}.  Yet more complex denial negation often does not emerge until just before the second birthday, almost a year later \cite{pea1980}.  Cross-linguistic studies suggest that this stratification by type---with certain negative categories produced earlier than others---can be seen across languages \cite{mcneill1968}.  
+Even after age 2, children continue to learn about negation, showing changes in the syntactic forms they use to produce these ideas \cite{klima1966, cameron2007} and increases in the frequency with which they produce negatives spontaneously \cite{pea1982}.   Furthermore, children as old as 4 years continue to have difficulty with implicitly negative terms such as marked adjectives (e.g. \emph{less}) \cite{donaldson1968, klatzky1973}.  Thus, although ``no'' is among the first words that children produce, they continue to grapple with the nuances of negation for several more years.  
+
+Why do some types of negation (e.g. denial) emerge later than others (e.g. nonexistence and refusal)? Many factors might play a role in determining the order of acquisition found in previous studies:
+
+{\it Linguistic factors.} Differences in frequency and form-function mappings in the input may influence the types of negation that children produce.  Nonexistence and refusal are prototypically expressed using ``no,'' the highest frequency and simplest negative element. In contrast, denial is often accomplished in sentential contexts (e.g. ``he doesn't like it''), though children sometimes express what seems like denial in an ungrammatical fashion using ``no'', as in ``no the sun shining'' (in response to an adult's ``is the sun shining?'') (\citeNP{klima1966}, but cf. \citeNP{drozd1995}).  If children are sensitive to form-function mappings in the input, their early negative utterances may utilize the more frequent ``no'' to express the most common functions expressed with this form (i.e. refusal and nonexistence).  Under this account, though children might start out using forms such as ``no'' when producing denial, they will eventually switch to the more common (but also syntactically more complex) "not" or "n't" to express denial (see \citeNP{cameron2007} for a usage-based account of negation development and \citeNP{brandt2009, kidd2007} for usage-based accounts of acquisition in other domains).  
+
+{\it Conceptual factors.} Nonexistence and refusal may be less complex concepts than denial (though of course conceptual complexity is very difficult to measure). Understanding denial requires evaluating a proposition and determining whether it is true or false, potentially making it more challenging than either perceiving the absence of an expected object or refusing an unappealing object or action.
+
+{\it Pragmatic/contextual factors.} Nonexistence and refusal might occur in contexts that are more salient to young children. According to Grice's Cooperative Principle, speakers should produce utterances that are informative given the context \cite{Grice1975}.  Negative sentences are most informative when the negate some expectation that a listener might have.  For example, a child might reach into a cookie jar, expecting a cookie, and exclaim ``no cookies!'' upon finding that the jar is empty.  Both nonexistence and refusal often occur in feeding situations  (e.g. ``no more juice!''; ``all gone!''; ``don't want!''), where food or drink has recently disappeared or where something is being offered to the child that they do not want.  In these contexts, expectations may be more salient, making negation more natural to produce.  Denial typically negates expectations that may be harder for a two-year-old to identify (e.g. another person's beliefs about the world). Early denials often occur in contexts where such an expectation/belief has been made explicit, such as when an adult deliberately mis-labels an object in the context of a yes/no question (e.g. Adult: ``Is that a biscuit?'' Child: ``No, apple'', \citeNP{pea1980, pea1980b, pea1982}).  Thus, the different types of negation seen in children's early speech may have more to do with the contexts in which these negation typically occur; opportunities to express refusal and nonexistence may simply occur more frequently in a two-year-old's day-to-day life.  
+
+
+%{\it Cognitive factors.} One previously unexamined factor in children's negation comprehension is the cognitive ability required in contexts where negation is meant to inhibit a response. For example, an adult might say ``don't touch'' to a child who is reaching towards a dangerous object.  A correct response to this phrase requires children to intervene on their own behavior and stop the action they are currently engaged in.  This type of response requires substantial \emph{inhibitory control}, defined as the ability to inhibit irrelevant stimuli or overcome a prepotent response while pursuing a goal. Although the broader set of abilities involved in inhibitory control continues to mature over the course of later childhood and adolescence, even early childhood is a time during which there are tremendous changes in inhibitory abilities \cite{diamond1996,zelazo1997,davidson2006,garon2008}. Perhaps these changes play a role in children's ability to produce and process different types of negation. Below we review evidence on adults' comprehension of negation, suggesting that even expert language users incur a processing cost with negative utterances, perhaps in part due to the same inhibitory demands.
+
+
+\subsection{The processing of negation}
+
+Even in adulthood, processing denial negation (the form of negation most often studied in adults) can require greater cognitive resources than processing positive sentences.  Participants in sentence verification tasks are generally slower to decide whether negative sentences are true of a picture.  Sentence type (i.e. whether the sentence is positive or negative) and truth value interact in respect to processing difficulty, such that adults are slowest to respond to true negative sentences \cite{hclark1972, just1971, just1976, carpenter1975}.  In another study, participants read sentences such as ``The door was open'' or ``The door was not closed,'' and were asked to name a picture that either matched (an open door) or did not match (a closed door) the sentence after a variable delay.  When the picture probe followed an affirmative sentence, participants were faster to label the matching probe than the mismatching probe after a 750ms delay; however, this effect did not emerge with negative sentences until a 1000ms delay (\citeNP{kaup2006}, see also \citeNP{kaup2003, hasson2006}).  This work collectively suggests that negation poses a particular challenge for adult sentence processing.
+
+Data from electroencephalography (EEG)  studies provide further evidence for the processing difficulty of negative sentences.  Participants in a sentence verification task showed a more negative peak at the N400 (a waveform associated with processing semantically unexpected material) in response to both positive unexpected sentences such as ``a robin is a truck'' and negated unexpected sentences like ``a robin is not a truck'' show, compared to expected sentences such as ``a robin is/is not a bird.''  The presence of the N400 response to unexpected sentences even when they were negated suggests that listeners processed the final word as a semantic mismatch despite the negative element that made the sentence true \cite{fischler1983}. The same N400 response was recorded in a sentence-picture verification paradigm, in which participants were asked to evaluate a sentence immediately after hearing it, with negation effects emerging only after a substantial delay \cite{ludtke2008}.  
+
+Although the above research suggests that there is something special about negative sentences that leads to these processing delays, an alternative possibility is that there is something pragmatically odd about the negative sentences used in previous work. Noting that denials are generally produced in response to a violation of expectations, Wason (1965) designed a study to examine whether pragmatic constraints such as context would affect how participants responded to negative sentences. Participants described stimuli consisting of 8 colored dots, in which 7 dots were one color and 1 dot was a different color. Wason found that when participants’ descriptions of the stimuli highlighted the fact that one of the dots was an exception to the rule, they were faster to evaluate negative sentences about the “odd” dot. Additional work has shown that when participants read a supportive pragmatic context, reading times for negative sentences are reduced \cite{glenberg1999, ludtke2006}, mouse trajectories in response to negative sentences are less discrete \cite{dale2011}, and false negative sentences elicit the same N400 response as false positive sentences \cite{nieuwland2008}.  A recent proposal suggests that context affects the informativeness of negative sentences, such that contexts that set up stronger expectations lead to faster processing of negative sentences when those expectations are violated (Nordmeyer \& Frank, under review).  
+
+These contextual facilitation effects may be present in children as well.  De Villiers and Tager-Flusberg \citeyear{devilliers1975} showed children arrays of toys and asked children to complete sentences such as ``This is [not] a...'' about specific toys.  They found that when the negative sentences occurred in a plausible context (e.g. the toy in question was easily confused with the other toys, such as a horse toy amongst several cow toys), children were faster to respond and made fewer errors compared to implausible negative sentences (where the toy in question was not easily confused with the other toys). In addition, when children were asked to complete implausible negative sentences, they were more likely to make the error of naming the object that was pointed to, rather than an alternative object.  This finding suggests that children, like adults, are sensitive to the contexts in which negative sentences are licensed.
+
+To summarize, although negation processing appears to be difficult even for adults, presenting negative sentences in a supportive pragmatic context appears to alleviate this processing cost.  
+While some work suggests that children are sensitive to these contextual effects as well, few studies have tested the effect of context on children's understanding of negation.  This body of evidence suggests that in addition to linguistic and conceptual factors, the pragmatic explanation given above may play a role in the order of children's acquisition of negation.
+
+\subsection{The current study}
+
+As the preceding review suggests, nearly all prior research on children's acquisition of negation has focused on production, rather than comprehension. While this body of work can tell us about the ways in which children use negation, it does not reveal the full extent of children's knowledge or the processes involved in understanding negative sentences. Eye-tracking measures have the potential to provide insight into the processes underlying children's developing language understanding \cite<e.g.>{fernald1998,trueswell1999}, but to our knowledge, only a small set of unpublished experiments have examined children's eye-movements during the comprehension of negation \cite{gilkerson2002,loder2006,snedeker2012}. 
+
+The goal of our current study is to measure the time-course processing of negation in two different contexts. We describe two experiments comparing adults' and children's processing of non-existence negation, varying whether the negated term (e.g. ``no apples'') refers to nothing (Experiment 1) or to a contrasting property (Experiment 2). In contrast to adults, all children had more difficulty in matching negation to nothing, and---surprisingly, given the production evidence---only older children showed any evidence of successful comprehension. When negative sentences referred to a contrasting property, younger children showed greater success at eventually identifying the target character, but only after an initial period of looking towards the named noun.  This research demonstrates that children process the same negative sentence differently depending on the context in which the sentence is presented, and suggests that negation may be more difficult for children depending on the context in which a negative sentence occurs.  
+
+\section{Experiment 1}
+
+Our first experiment was designed to examine the comprehension of nonexistence negation in 2--5-year-olds. Children viewed trials consisting of a context slide and a test trial.  During each test trial, children were asked to ``look at the boy [with/with no] apples'' (we used plurals to maintain maximum consistency between positive and negative utterances). Following each trial, Elmo appeared next to the target, to motivate children to look towards the correct character.  Our paradigm was simple and highly supportive for young children: We used the word ``no,'' the negative element emerging earliest in children's speech \cite{klima1966, cameron2007}, and nonexistence negation, one of the types seen earliest in children's production \cite{bloom1970, bloom1993, pea1980}. In addition, to set up expectations for negation, we used contexts that suggested that there was some variation in whether characters had the noun that was mentioned in the test trials (e.g. a context in which two boys had apples and one boy did not) \cite{wason1965,glenberg1999,ludtke2006,devilliers1975}.  These contexts were designed to give participants a sample of what characters in each trial look like. These contexts have been shown to improve the processing of negation in adults, using the same stimuli (Nordmeyer \& Frank, under review).  Finally, in order to motivate children to look at the correct picture and to keep children engaged in the task, we included feedback after each trial (i.e. Elmo popping up next to the correct referent).  
+
+\subsection{Methods}
+\subsubsection{Participants}
+
+Families visiting Children's Discovery Museum in San Jose, CA were invited to participate in this study.\footnote{Because our mission at CDM is to recruit a diverse sample of families, we used preset criteria for inclusion in the final sample but recruited inclusively regardless of language background.  We also recruited from a broad range of ages, setting a target of 24 included children per age group (two-, three-, and four-year-olds) and ending data collection once this minimum had been reached in all groups after the rejection criteria were applied.  This lead to a sample with slightly more three-year-olds than other ages.}  Nineteen children were excluded whose parents indicated that they were exposed to English less than 75\% of the time.  Twenty-seven children were excluded for being outside the target age range (between two and five years old).  One child was excluded for poor attentiveness during the initial calibration phase.  Five children were excluded due to technical problems during the calibration phase.  This resulted in a sample of 93 children, 30 two-year-olds (mean age = 2;5, range = 2;0--2;11, 18 female), 34 three-year-olds (mean age = 3;6, range = 3;0--3;11, 14 female), and 29 four-year-olds (mean age = 4;6, range = 4;0--4;11, 14 female).  In exchange for participation, children were given a sticker and a certificate.  
+
+Of these initial 93 children, only those who completed at least 8 of the 16 trials were included in analysis.  Two two-year-olds and 2 three-year-olds were rejected due to this criterion.  A further 4 two-year-olds, 1 three-year-old, and 5 four-year-olds were rejected due to loss of gaze data in more than 30\% of the experiment.  Finally, individual trials with more than 30\% missing gaze data were excluded from analysis.   This left a total of 79 children whose data was analyzed; 24 two-year-olds, 31 three-year-olds, and 24 four-year-olds. 
+
+A comparison group of 17 adult participants (Stanford undergraduates) also participated as volunteers or in exchange for course credit.  One participant was excluded due to loss of gaze data in more than 30\% of the experiment, leaving a final sample of 16 adults.  
+
+\subsubsection{Materials}
+
+\begin{figure}
+\begin{center} 
+\includegraphics[width=5in]{trialfigure_nothing.pdf}
+\caption{\label{fig:e1stim} An example of context and negative test trial slides from Experiment 1. }
+\end{center} 
+\end{figure}
+
+We created 16 items, each presented as an individual trial, such that each item was only seen in a single trial.  Items consisted of boys or girls either holding nothing or holding a pair of objects (e.g. two apples).  Each trial was matched with a positive or a negative sentence.  Sentences were of the form ``Look at the boy who has/has no apples.''  Each trial contained three parts: a context, a test trial, and feedback (see Figure \ref{fig:e1stim}):
+
+\emph{Context.}  The context consisted of three characters, two holding two target items each, and the other character holding nothing.  A pre-recorded voice said e.g. ``See these boys?''  Each context lasted 5 seconds.  
+
+\emph{Test trial.}  Each trial consisted of two new characters, one holding two target items and one holding nothing.  Positioning of the target character (i.e. the correct referent) as well as the positioning of the character holding the items was counterbalanced across trials.  The images were presented in silence for two seconds, after which a pre-recorded voice said a positive or a negative sentence (e.g. ``Look at the boy with/with no apples''), followed by an additional tag sentence (e.g. ``Can you find him?''). Each trial lasted 7.5 seconds. Positive and negative sentences were constructed using the same base audio (with a separate base sentence created for each gender, i.e. ``look at the boy who has'' or ``look at the girl who has'', to maintain a natural quality) with the positive and negative target items (e.g. ``apples'' / ``no apples'') spliced in using Audacity software.  Sentence prosody was constructed such that emphasis was placed on the final noun (e.g. ``apples'') in positive sentences and the word ``no'' in negative sentences.  
+
+\emph{Feedback.}  Elmo (an animated red puppet) appeared next to the named character, accompanied by a chiming noise. This phase of each trial lasted 1.5 seconds.  
+
+The experiment was presented in the form of a short video.  The video began with an Elmo video clip, during which any necessary adjustments to the eye-tracker were made.  This clip was followed by a 2-point calibration and a 4-point validation of the calibration points; deviation from the validation points was examined by the experimenter and the calibration sequence was rerun if deviation was excessive.  After calibration, children were introduced to Elmo and told that ``Today, Elmo is going to visit some of his friends.  Do you want to meet Elmo's friends?  Let's go!''  This opening sequence was created to give the video a more narrative framing, and to motivate children to look to the target characters during the test trials.  
+
+Following this introduction, children saw three gaze-contingent practice trials, designed so that the video would not advance until the child looked at the target item. Practice trials involved only the trial and feedback sections, with no context slide.  The first practice item had only one character, while the next two practice items had two characters (congruent with the test trials).  
+
+The rest of the video consisted of 16 trials, as well as 6 filler pictures of Elmo and 4 Elmo video clips.  Filler videos were advanced by the experimenter after a variable length of time depending on the child's attentiveness, making the total experiment length slightly different for each child. In general the video lasted 7 minutes.  Two versions of the test video were created, such that trial types were counterbalanced and trial order was pseudo-randomized across the two versions. 
+
+\subsubsection{Procedure}
+
+Parents and children were recruited on the floor of the CDM and were led to a small nearby research room.  Children sat in a booster seat approximately 60 cm from the monitor of an SMI RED 120 Hz corneal reflection eye-tracker mounted on an adjustable arm.  A small subset of children  (less than 10\%) sat on a parent's lap, depending on the child's age and level of comfort.  Parents were asked to look away from the screen during calibration, to confirm that the child's eyes were being tracked.  
+
+\subsubsection{Eye-tracking analysis}
+
+All data were exported from the SMI format to simple text files and processed using the R data analysis language. Data from blinks and other cases where track was lost were treated as missing and excluded from further analysis. Each trial was synchronized to the point of disambiguation, which was coded individually for each audio stimulus. The point of disambiguation for both positive and negative trials was defined as the onset of the target noun (e.g. ``apples'').  Although it is possible in this experiment that participants could guess that ``no'' refers to the boy with nothing, hearing the target noun is necessary to confirm what is being negated. Looks were coded as being on the correct target if they fell on the corresponding side of the screen (excluding a  400 pixel zone in the middle of the two targets).  
+
+\subsection{Results and Discussion}
+
+\begin{figure}
+\begin{center} 
+\includegraphics[width=6in]{simpleplots_nothing.pdf}
+\caption{\label{fig:e1simple} Target preference plots for Experiment 1. Each panel shows the proportion of participants in a single age group (two-, three-, and four-year-olds and adults) who looked at the target picture for each trial type across time. Positive trials are shown in light pink and negative trials are shown in dark blue.  The vertical dotted line shows the onset of the final noun in each sentence. Average timings for individual words in positive and negative items are pictured at the top and bottom of each plot, respectively. The horizontal dashed line shows chance responding. Shaded regions show 95\% confidence intervals across participants.}
+\end{center} 
+\end{figure}
+
+The majority of children in all age groups and conditions responded correctly to positive sentences, but there were substantial differences in accuracy on negative sentences across age groups. Figure \ref{fig:e1simple} shows the proportion of children who looked to the target picture over the course of a trial. Two-year-olds showed essentially no comprehension of negation in this paradigm, with children continuing to look away from the target picture throughout the duration of the trial, matching ``no apples'' to the picture of the boy \emph{with} apples.  Three-year-olds looked more at the target than did two-year-olds, but were still at chance in their ability to identify the target of negative sentences correctly.  Only four-year-olds showed some comprehension of negation, with 70\% of children looking correctly to the target of negative sentences by around a second after the onset of the final noun.  
+
+Previous work with adults has shown delayed comprehension of negative sentences compared to positive sentences \cite{hclark1972, just1971, just1976, carpenter1975}.  On our task, however, adults appeared to show comparable performance on both positive and negative sentences.  Although adults showed a slight preference for the character with nothing early in the trial (discussed below), they actually appear to shift their gaze to the target of negative sentences faster than they shift their gaze to the target of positive sentences (as indicated by the sharper change in slope at the disambiguating noun).  In fact, given that it takes 200 ms for adults to plan a saccade (CITE??), adults appear to be identifying the target of negative sentences as soon as they hear the word ``no''.  Unlike in previous studies of adults' negation processing, in our stimuli there is an obvious referent for the negation (e.g. the character with nothing).  It is possible that adults are making a prediction about which character is the referent of a negative sentence, even before they hear the disambiguating noun.   
+
+Two- and three-year-olds' difficulty in responding to negative sentences is surprising, given that children at this age are robustly producing nonexistence negation using ``no'' \cite{bloom1970, pea1980}.  Why is it, then, that these children seem to be struggling to comprehend such sentences?  Onset-contingent plots can provide us with a more detailed way of looking at children's gaze behavior, and give us insight into how children are processing these sentences over the course of the trial.  These plots split trials based on whether the child was looking at the target or the distractor at the onset of the noun, and plot the proportion of children who shift their gaze to the opposite item.  In successful comprehension, children who are initially looking at the distractor should show rapidly increasing shifts to the target, whereas children who are initially looking at the target should continue to look at the target \cite{fernald2008}.  
+
+\begin{figure}
+\begin{center} 
+\includegraphics[width=6in]{OC_nothing.pdf}
+\caption{\label{fig:e1split} Onset-contingent plots for Experiment 1. Each panel shows the looking behavior for participants in a single age group, beginning at the point of disambiguation (the noun onset). For each trial type, fixations are split by whether participants are looking at the target or the distractor at the point of disambiguation. Again, positive trials are shown in light pink and negative trials are shown in dark blue. For ``target-initial'' trials (dotted lines), looks to the distractor are plotted; correct responding is shown by continuing to look at the target. For ``distractor-initial'' trials (solid lines), looks to the target are plotted; correct responding is shown by shifting to the target. The dashed line shows chance.}
+\end{center} 
+\end{figure}
+
+Onset-contingent plots for our data are shown in Figure \ref{fig:e1split}.\footnote{Although we computed reaction times for participants as per \citeA{fernald2008}, given the large degree of shifting between targets that we observed in all of our participant groups, we do not believe that these provide a reliable measure for the current dataset and so we omit them here.} Responses to the positive sentences are typical for such plots, but responses to the negative sentences deviate substantially from the expected pattern.  Two-year-olds actually showed the reverse pattern: If they were looking at the target picture, they oriented away, and if they were on the distractor, they stayed.  This suggests that two-year-olds were actually treating the negative sentences like positive sentences.  The onset-contingent plot of the three-year-olds' gaze data suggests general confusion; regardless of whether they started on the target or distractor picture, their looks to the target picture remained at chance.  Only four-year-olds showed the expected pattern, switching away from the distractor picture and staying on the target picture, though not as robustly as adults, who responded to negative sentences in the same way that they responded to positive sentences.  
+
+% latex table generated in R 2.15.3 by xtable 1.7-1 package
+% Tue Jun 18 10:02:29 2013
+\begin{table}[ht]
+\caption{\label{tab:e1model}Coefficient estimates from mixed-effects models predicting proportion of looks to target 600-2600 ms after noun onset (Experiment 1). }
+\begin{center}
+\small\addtolength{\tabcolsep}{-5pt}
+\begin{tabular}{rrrr}
+  \hline
+ & Coefficient  & Std. Err. & $t$ value \\ 
+  \hline
+Intercept & 0.77 & 0.03 & 25.14 \\ 
+  Age (Three-year-olds) & 0.00 & 0.04 & 0.01 \\ 
+  Age (Four-year-olds) & 0.06 & 0.04 & 1.29 \\ 
+  Age (Adults) & 0.16 & 0.04 & 3.93 \\ 
+  Sentence (Negative) & -0.51 & 0.05 & -10.96  \\ 
+  Age (Three-year-olds) $\times$ Sentence (Negative) & 0.22 & 0.06 & 3.77 \\ 
+  Age (Four-year-olds) $\times$ Sentence (Negative) & 0.33 & 0.06 & 5.31 \\ 
+  Age (Adults) $\times$ Sentence (Negative) & 0.45 & 0.07 & 6.77  \\ 
+   \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+To varying degrees, all four participant groups showed a baseline preference to look at the character who had something (rather than the target with nothing). Because our experimental design balanced positive and negative trials, this preference did not emerge from a learned expectation that one character type would be referred to more often. Instead, it likely came out of the fact that the character with something was more salient (whether visually or conceptually) and that---perhaps because of this greater salience---the same character was also \emph{a priori} more likely to be talked about \cite{frank2012}. Onset contingent plots also provide a method to control for baseline differences, at least partially \cite<but cf.>{grodner2010}.
+
+To examine the reliability of our findings, we fit a linear mixed-effects model to dwell times on the target pictures. In particular, we analyzed the interaction between sentence type and age group on each participant's proportion looking to the target between 600 and 2600ms following the onset of the noun for each trial. Coefficients for this model are shown in Table \ref{tab:e1model}.\footnote{Because of the robustness of the patterns we observed, for simplicity and interpretability we fit a linear model to proportions of looking within a target window rather than attempting to fit a series of logistic functions for individual time points. All mixed-effects models were fit using the lme4 package in R version 2.15.2.  The model specification was as follows: \texttt{on.target $\sim$ age~$\times$~sentence + (sentence~\textbar~subject) +  (sentence + age~\textbar~item)}.  Significance was calculated using the standard normal approximation to the $t$ distribution \cite{barr2013}.} Results of this model indicate a highly significant effect of sentence type, with significantly fewer children looking to the target picture in response to negative sentences compared to positive sentences ($\beta= -.51$, $p< .001$).   There were significant interactions between age group and sentence type for three-year-olds ($\beta = .22$, $p< .001$), four-year-olds ($\beta = .33$, $p< .001$), and adults ($\beta = .45$, $p< .001$), indicating that the increase in accuracy across development is driven primarily by improved comprehension of negative sentences.  
+
+Together, these results show an interesting developmental pattern. Two-year-olds seemed to disregard the negative element completely, treating the negative sentences as positive, and three-year-olds were at chance in their responses to negative sentences.  Only by age 4 were children able to begin identifying the correct referent of the negative items.  One possible explanation for the poor performance of two- and three-year-old children is that this is an unusual context for nonexistence negation.  Typically nonexistence negation is produced in contexts where a salient object has disappeared, or when an expected object or action has failed to occur.  This context required children to orient \emph{away} from the more interesting picture.  Perhaps three-year-olds remained at chance in part because they knew that they \emph{should} look to the target, but they had difficulty shifting their attention away from the more salient picture.  On this account, children have the conceptual knowledge necessary to understand negation, but the context is challenging for children because it requires them to inhibit their desire to look at the more interesting picture. If this is the case, children should show increased comprehension of negation in contexts where the possible targets of negation are equally salient.
+
+\section{Experiment 2}
+
+Experiment 1 found that children up to age four struggled to identify the referent of a negative sentence when that sentence referred to ``nothing.''  Because nonexistence negation is one of the first types of negation that children produce, it seems unlikely that this difficulty was due to lack of conceptual understanding.  A more likely explanation is that negative sentences in Experiment 1 required children to look at the character holding nothing, who was considerably less interesting.  When young children in naturalistic settings produce nonexistence negation, they are typically referring to an object that has recently disappeared from the scene or expressing surprise that an object is not in its expected location \cite{pea1980}.  In addition, orienting away from a more interesting stimulus may require a level of control that two- and three-year-olds are not capable of.  In Experiment 2, we modified our stimuli so that the target of the negative sentences is holding a comparably interesting item that does not match the target noun (e.g. a boy holding presents on ``apples'' trials).  
+
+Although the linguistic form of the negation in Experiment 2 remains identical (``no apples''), the conceptual form or complexity of the negation may be increased by the addition of a positive distractor item. Referring to a ``boy who has no apples'' in a case where the boy has nothing is certainly using negation to point out nonexistence. Using the same phrase in a case where the boy has something else (instead of apples) requires extra specificity to the inference: The child cannot simply match ``no'' to nonexistence, she must match ``no apples'' for the nonexistence of apples in particular. If comprehending negation is difficult for young children in part because these conceptual subtleties are challenging, then children in Experiment 2 should continue to show limited comprehension, because the conceptual demands are if anything increased.  If, however, children's performance in Experiment 1 is due to the fact that this was a challenging and unusual context for young children, then children should show stronger performance.  
+
+\subsection{Methods}
+
+\subsubsection{Participants}
+
+As in Experiment 1, families visiting CDM were invited to participate.  Eleven children were excluded whose parents indicated that they were exposed to English less than 75\% of the time.  Eighteen children were excluded for being outside the target age range (between two and five years old).  Four children were excluded due to technical problems during the calibration phase.  This resulted in a sample of 93 children, 29 two-year-olds (mean age = 2;5, range = 2;0--2;11, 12 female), 34 three-year-olds (mean age = 3;5, range = 3;0--3;11, 15 female), and 30 four-year-olds (mean age = 4;5, range = 4;0--4;11, 20 female).  In exchange for participation, children were given a sticker and a certificate.  
+
+The same rejection criteria were used as in Experiment 1.  Three two-year-olds and 3 three-year-olds were rejected for participating in fewer than 8 trials.  A further 2 two-year-olds, 3 three-year-olds, and 5 four-year-olds were rejected due to loss of gaze data in more than 30\% of the experiment.  This left a total of 77 participants whose data was analyzed; 24 two-year-olds, 28 three-year-olds, and 25 four-year-olds. A comparison group of 16 adult participants (Stanford undergraduates) also participated as volunteers or in exchange for course credit; none were excluded.
+
+\subsubsection{Stimuli}
+
+\begin{figure}
+\begin{center} 
+\includegraphics[width=5in]{trialfigure_something.pdf}
+\caption{\label{fig:e2stim} An example of context and positive test trial slides from Experiment 2. }
+\end{center} 
+\end{figure}
+
+As in Experiment 1, we created a total of 16 trials.  Items were identical to those presented in Experiment 1 except that in each context and test trial the boy or girl with nothing was replaced with a boy or girl holding different items (see Figure \ref{fig:e2stim}).  Thus, all characters in each trial were holding items, making all of the characters equally salient (given that items were counterbalanced).  Each trial was paired with a positive or negative sentence, identical to the sentences used in Experiment 1 (``Look at the boy who has/has no apples'').  As in Experiment 1, each trial contained three parts: a context, a test trial, and feedback.  The timing and presentation of the trials, and the construction of the video, was identical to Experiment 1.  
+
+\subsubsection{Procedure}
+
+The procedure was identical to the procedure used in Experiment 1.  
+
+\subsubsection{Eye-tracking analysis}
+
+All data analysis was identical to the previous experiment except as noted below.
+
+% Experiment 2 was designed to test children's comprehension of negative sentences that refer to alternatives.  Although this type of negation may be conceptually more complex, the fact that the two characters are equally salient reduces the inhibitory control required to respond correctly to the negative sentences.  If inhibitory control is responsible for children's poor performance in Experiment 1, we should see improved performance in this experiment.  
+
+\subsection{Results and Discussion}
+
+\begin{figure}
+\begin{center} 
+\includegraphics[width=6in]{simpleplots_something.pdf}
+\caption{\label{fig:e2simple} Target preference plots for Experiment 2. Plotting conventions are the same as in Figure \ref{fig:e1simple}.}
+\end{center} 
+\end{figure}
+
+Figure \ref{fig:e2simple} shows the proportion of children who looked to the target picture over the course of a trial.  As in Experiment 1, the majority of children in both age groups and conditions responded correctly to positive sentences.  Futhermore, two-year-olds continued to show no comprehension of the negative sentences, even though in this experiment both targets were equally salient.  Three-year-olds and four-year-olds showed a different pattern, however: Although both groups did eventually show some comprehension of negation, initially both groups looked away from the target picture.  It was not until approximately 1600ms that three- and four-year-olds began to look back towards the target picture in response to the negative sentences. Surprisingly, although this paradigm appeared to be easier for children, adults appeared somewhat slower to identify the referent of negative sentences than they were in Experiment 1.  
+
+\begin{figure}[t]
+\begin{center} 
+\includegraphics[width=6in]{OC_something.pdf}
+\caption{\label{fig:e2split} Onset-contingent plots for Experiment 2. Plotting conventions are the same as in Figure \ref{fig:e1split}.}
+\end{center} 
+\end{figure}
+
+This pattern can be seen more clearly in the onset-contingent plots (Figure \ref{fig:e2split}).  Three-year-olds who were looking at the distractor at the point of disambiguation continued to linger on the distractor until approximately 1600ms, at which point the majority of looks shifted to the target.  But three-year-olds who were looking at the target at noun onset shifted \emph{away} from the target, fixating the distractor until around 1600ms, when they looked back to the target.  This same pattern can be seen in the onset-contingent plots for the four-year-olds, except that for these older children this shift happened faster, around 1200ms following the onset of the noun.  Even adults showed a subtle tendency towards this pattern: Although adults who were originally fixating on the distractor were quick to shift to the target in response to both positive and negative sentences, adults fixating on the target when they heard a negative sentence showed a tendency to shift towards the distractor picture before looking back towards the target.  In Experiment 2, all participants thus showed a tendency to look towards a named noun, even when that noun has been negated (e.g. looking towards the boy with apples even for a sentence ending with ``no apples''). 
+
+% latex table generated in R 2.15.3 by xtable 1.7-1 package
+% Tue Jun 18 10:03:46 2013
+\begin{table}
+\caption{\label{tab:e2model}Coefficient estimates from a mixed-effects model predicting proportion of looks to target in an early window (600-1600 ms after noun onset) and a late window (1600-2600 ms after noun onset) (Experiment 2).}
+\begin{center}
+\small\addtolength{\tabcolsep}{-5pt}
+\begin{tabular}{rrrr}
+  \hline
+ & Coefficient  & Std. Err. & $t$ value \\ 
+  \hline
+Intercept & 0.63 & 0.03 & 19.42 \\ 
+  Age (Three-year-olds) & 0.09 & 0.05 & 1.90 \\ 
+  Age (Four-year-olds) & 0.11 & 0.04 & 2.52 \\ 
+  Age (Adults) & 0.25 & 0.05 & 5.22 \\ 
+  Sentence (Negative) & -0.31 & 0.05 & -6.40 \\ 
+  Window (Late) & 0.04 & 0.04 & 1.03 \\ 
+  Age (Three-year-olds)$\times$Sentence (Negative) & -0.04 & 0.06 & -0.70 \\ 
+  Age (Four-year-olds)$\times$Sentence (Negative) & -0.01 & 0.06 & -0.19 \\ 
+  Age (Adults)$\times$Sentence (Negative) & 0.16 & 0.07 & 2.29 \\ 
+  Age (Three-year-olds)$\times$Period (Late) & -0.04 & 0.05 & -0.77 \\ 
+  Age (Four-year-olds)$\times$Period (Late) & -0.11 & 0.06 & -2.01 \\ 
+  Age (Adults)$\times$Period (Late) & 0.01 & 0.06 & 0.09 \\ 
+  Sentence (Negative)$\times$Period (Late) & -0.02 & 0.05 & -0.37 \\ 
+  Age (Three-year-olds)$\times$Sentence (Negative)$\times$Period (Late) & 0.25 & 0.07 & 3.52 \\ 
+  Age (Four-year-olds)$\times$Sentence (Negative)$\times$Period (Late) & 0.37 & 0.07 & 4.89 \\ 
+  Age (Adults)$\times$Sentence (Negative)$\times$Period (Late) & 0.12 & 0.08 & 1.56 \\ 
+   \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+We again fit a linear mixed-effects model to explore the interaction between sentence type and age group. In this case, since we observed such striking differences in time-course, we added a third predictor to our model: time window (Table \ref{tab:e2model}).\footnote{The model specification was \texttt{on.target $\sim$ age~$\times$~sentence~$\times$~window + (sentence + window~\textbar~subject) +  (sentence + age + window~\textbar~item)}.} We defined two windows based on the pattern of data seen in Figure \ref{fig:e2simple}, an early window spanning from 600 to 1600 ms following the point of disambiguation, and a late window, spanning from 1600 to 2600 ms following the point of disambiguation. 
+
+Results of this model indicate a significant effect of sentence type, with significantly fewer participants looking to the target picture in response to negative sentences compared to positive sentences ($\beta = -.31$, $p < .001$).   There were significant 3-way interactions between age group, sentence type, and time window for three-year-olds ($\beta = .25$, $p  < .001$) and four-year-olds ($\beta = .37$, $p  < .001$), indicating that in response to negative sentences, three- and four-year-olds showed an increase in looks to the target specifically in the later window of time.  This three-way interaction was not significant for adults ($\beta = .13$, $p = .13$).  
+
+
+% latex table generated in R 2.15.3 by xtable 1.7-1 package
+% Wed Jun 26 23:18:35 2013
+\begin{table}
+\caption{\label{tab:bothmodel}Coefficient estimates from a mixed-effect model predicting proportion of looks to target in an early window (600-1600 ms after noun onset) and a late window (1600-2600 ms after noun onset), with Experiment as an additional factor.}
+\begin{center}
+\small\addtolength{\tabcolsep}{-5pt}
+\begin{tabular}{rrrr}
+  \hline
+ & Coefficient  & Std. err & $t$ value \\ 
+  \hline
+Intercept & 0.83 & 0.03 & 26.32 \\ 
+  Age (Three-year-olds) & -0.04 & 0.04 & -1.08 \\ 
+  Age (Four-year-olds)& 0.04 & 0.04 & 0.84 \\ 
+  Age (Adults) & 0.10 & 0.05 & 2.18 \\ 
+  Sentence (Negative) & -0.58 & 0.05 & -11.72 \\ 
+  Window (Late)  & -0.11 & 0.04 & -2.94 \\ 
+  Experiment (Exp. 2) & -0.19 & 0.04 & -4.58 \\ 
+  Age (Three-year-olds)$\times$Sentence (Negative) & 0.30 & 0.06 & 4.76 \\ 
+  Age (Four-year-olds)$\times$Sentence (Negative) & 0.39 & 0.07 & 5.79 \\ 
+  Age (Adults)$\times$Sentence (Negative) & 0.50 & 0.07 & 6.94 \\ 
+  Age (Three-year-olds)$\times$Window (Late)  & 0.07 & 0.05 & 1.45 \\ 
+  Age (Four-year-olds)$\times$Window (Late) & 0.05 & 0.06 & 0.82 \\ 
+  Age (Adults)$\times$Window (Late)  & 0.12 & 0.06 & 2.14 \\ 
+  Sentence (Negative)$\times$Window (Late)  & 0.15 & 0.05 & 2.97 \\ 
+  Age (Three-year-olds)$\times$Experiment (Exp. 2)  & 0.13 & 0.06 & 2.28 \\ 
+  Age (Four-year-olds)$\times$Experiment (Exp. 2)  & 0.07 & 0.06 & 1.23 \\ 
+  Age (Adults)$\times$Experiment (Exp. 2) & 0.15 & 0.06 & 2.39 \\ 
+  Sentence (Negative)$\times$Experiment (Exp. 2)& 0.27 & 0.07 & 3.99 \\ 
+  Window (Late)$\times$Experiment (Exp. 2)  & 0.15 & 0.05 & 2.82 \\ 
+  Age (Three-year-olds)$\times$Sentence (Negative)$\times$Window (Late) & -0.15 & 0.07 & -2.25 \\ 
+  Age (Four-year-olds)$\times$Sentence (Negative)$\times$Window (Late)  & -0.15 & 0.07 & -2.05 \\ 
+  Age (Adults)$\times$Sentence (Negative)$\times$Window (Late)  & -0.10 & 0.08 & -1.34 \\ 
+  Age (Three-year-olds)$\times$Sentence (Negative)$\times$Experiment (Exp. 2)  & -0.34 & 0.09 & -3.79 \\ 
+  Age (Four-year-olds)$\times$Sentence (Negative)$\times$Experiment (Exp. 2)  & -0.40 & 0.09 & -4.24 \\ 
+  Age (Adults)$\times$Sentence (Negative)$\times$Experiment (Exp. 2) & -0.34 & 0.10 & -3.34 \\ 
+  Age (Three-year-olds)$\times$Window (Late)$\times$Experiment (Exp. 2)  & -0.11 & 0.07 & -1.54 \\ 
+  Age (Four-year-olds)$\times$Window (Late)$\times$Experiment (Exp. 2)  & -0.16 & 0.08 & -2.00 \\ 
+  Age (Adults)$\times$Window (Late)$\times$Experiment (Exp. 2)  & -0.11 & 0.08 & -1.44 \\ 
+ Sentence (Negative)$\times$Window (Late)$\times$Experiment (Exp. 2)  & -0.17 & 0.07 & -2.34 \\ 
+  Age (Three-year-olds)$\times$Sentence (Negative)$\times$Window (Late)$\times$Experiment (Exp. 2)  & 0.40 & 0.10 & 4.12 \\ 
+  Age (Four-year-olds)$\times$Sentence (Negative)$\times$Window (Late)$\times$Experiment (Exp. 2)  & 0.52 & 0.10 & 4.94 \\ 
+  Age (Adults)$\times$Sentence (Negative)$\times$Window (Late)$\times$Experiment (Exp. 2) & 0.22 & 0.11 & 2.07 \\ 
+   \hline
+\end{tabular}
+\end{center}
+\end{table}
+\doublespacing
+
+To compare the results of Experiment 1 to those of Experiment 2, we combined the data for both experiments and fit a linear mixed-effects model exploring the interactions between sentence type, age group, time window, and experiment on proportion looking to the target (Table \ref{tab:bothmodel}).\footnote{The model specification was \texttt{on.target $\sim$ age~$\times$~sentence~$\times$~window~$\times$~experiment + (sentence + window~\textbar~subject) +  (sentence + age + window~\textbar~item)}.} The three-way interactions between age, sentence type, and experiment indicate that performance on negative sentences was \emph{lower} for three-year-olds ($\beta = - .34$, $p  < .001$), four-year-olds ($\beta = -.40$, $p <  .001$), and adults ($\beta = -.34$, $p  < .001$) on Experiment 2.  Examining Figure \ref{fig:e2simple}, this pattern appears to be due to children's looks to the incorrect picture in the initial period and adults' slower latency to target in response to negative sentences.  The delay in identifying the target leads to overall lower performance in response to negative sentences in Experiment 2.  In the 4-way interactions, however, which include the effect of time window, we now see \emph{increased} late performance on negative sentences for three-year-olds ($\beta = .40$, $p < .001$), four-year-olds ($\beta = .52$, $p < .001$), and adults ($\beta = .22$, $p <  .05$) in Experiment 2.  Thus, although target looking in Experiment 2 was lower than performance on Experiment 1 in the earlier window of time, in the later window of time performance increased such that three-year-olds now showed comprehension of negative sentences, and four-year-olds showed improved accuracy.  
+
+Although adults in Experiment 2 appeared slightly slower to process negations than they were in Experiment 1, a model fit only to the adult data did not find a significant interaction between sentence type, time window, and experiment (Sentence (Negative)$\times$Window (Early)$\times$Experiment (Exp. 2); $\beta = -.05$, $p <  .37$).\footnote{The model specification was \texttt{on.target $\sim$ sentence~$\times$~window~$\times$~experiment + (sentence~$\times$~window~\textbar~subject) +  (sentence + window~\textbar~item)}.}  This model of only the adult data also failed to show a significant main effect of negation ($\beta = -.03$, $p < .38$).  This indicates that adults in our experiment were not significantly worse at responding to negative sentences compared to positive sentences, although the direction of the coefficients does suggest a potential slight cost of negation, particularly in the early window of Experiment 2.   
+
+Although children heard the exact same sentences in Experiments 1 and 2, their comprehension appeared different in these different contexts.  Two-year-olds struggled to orient towards the target picture in both contexts, even in Experiment 2 when there was no baseline preference for either item.  Three-year-olds failed to show robust comprehension of negation in a context where the negative sentences referred to the absence of an object, but showed some late comprehension when negative sentences referred to an alternative object.  Four-year-olds showed comprehension of negation in both experiments, but like 3-year-olds, their comprehension was delayed in Experiment 2 when the negative sentence referred to an alternative object.  These results suggest that different contexts of negation --- in these experiments either a target with an absent feature, or a target with an alternative feature --- lead children to process these sentences in very different ways.  
+
+
+\section{General Discussion}
+
+Negative utterances emerge very early in children's productive speech, expressing a wide variety of concepts such as nonexistence, refusal, prohibition, and denial.  Despite this early emergence, and the importance of negation in human language and reasoning, we still know very little about how children process and comprehend negative utterances.  
+
+The study of negation has been used to inform our understanding of sentence processing more broadly.   Many studies of adults' comprehension of negation have suggested that negative sentences are challenging to process even for adult language users.  This work has been used to explore a number of possible ways that we represent language, e.g. as propositions \cite<e.g.>{hclark1972} or as simulated representations \cite<e.g.>{kaup2003}.  Furthermore, the finding that an appropriate context can alleviate processing demands \cite<e.g.>{wason1965} supports research on pragmatics and the role of context on linguistic processing. Just as these studies of adults' comprehension of negation have helped us understand adult sentence processing more generally, we hope that exploring children's comprehension of negative sentences will advance our understanding of how children process complex sentences.
+
+We conducted a study of children's comprehension of negation in which negative sentences referred either to an absent item (Experiment 1) or an alternative item (Experiment 2).  We proposed several factors that might influence children's acquisition of negation, including linguistic factors (which were held constant in these experiments), conceptual factors, and pragmatic factors.  If conceptual factors were of primary importance in children's negation comprehension, Experiment 2 should have been more difficult for children, since it required them to go beyond simply matching ``no'' to non-existence in general and identify a specific non-existence (``no apples'').  Instead, children showed a different pattern of comprehension in Experiment 2, with three- and four-year-olds looking away from the target object early in the trial, but improved comprehension several seconds later.  We propose that contextual factors are the best explanation for the different processing patterns seen in these experiments, with children interpreting the negative sentence differently depending on the context in which the sentence was presented.  
+
+We initially expected that children would be successful at comprehending negative sentences in Experiment 1, because these sentences represented ``nonexistence negation'', i.e. a negative sentence which refers to the absence of an object, which emerge early in children's production \cite{pea1980, bloom1970}.  How do our contexts in Experiment 1 differ from the contexts in which children produce nonexistence negation?  Children's production of nonexistence often occurs in feeding situations, where a child has recently finished their food or drink (e.g. ``no juice'', Bloom 1970), or in situations where an object is not in its expected location or an expected action fails to occur.  In fact, in his investigation of children's early negative utterances, \citeA{pea1980} splits nonexistence into two categories, disappearance and unfulfilled expectations.  Both of these types of negation would occur in contexts where the absence of an item is highly salient, either because it has recently disappeared or an expectation has been violated, unlike our stimuli, which merely comment on the absence of a property.  Although the context slides presented in this experiment have been shown to set up a strong expectation in adults (e.g. that boys have apples, Nordmeyer \& Frank, under review), it is possible that these contexts were too subtle to influence children's sentence processing.  Future work will explore what kinds of contexts are most effective at facilitating children's comprehension of negation.  
+
+We observed a striking phenomenon in the time-course of processing negative sentences: On hearing the target noun, three- and four-year-old-children oriented towards the matching picture even when the noun was negated.  There are a number of possible explanations for this pattern.  One possibility is that this context is also pragmatically infelicitous.  In a context where two characters have an identifying feature (e.g. the objects that they are holding), it is more felicitous to describe either character by labeling that feature.  For example, in the example shown in Figure 4, children may be expecting to hear either ``apples'' or ``presents'' to describe the boys; ``no apples'' is an odd choice because it is a more costly utterance (requiring an additional word) and does not specify what the target character \emph{is} holding.  However, it is not clear why this would cause children to look \emph{away} from the target character as opposed to simply taking longer to orient to the correct character.  Another explanation is that it takes children longer to fully integrate the negative element (``no'') with the referent (``apples''), even though they understand the meaning of the word ``no''. (CITE??) This could explain the tendency to shift away from the target upon hearing the disambiguating noun, as well as very young children's difficulty with our task in both conditions (e.g. 2-year-olds may not be able to integrate the negative element in the time provided them here).  Finally, it is possible that when children are presented with two equally likely alternatives, identifying the referent of negation requires ruling out the named object.  That is, when children hear the phrase ``no apples'', they may try to first find the boy \emph{with} apples in order to rule him out as a possible target; only then do they turn to the boy with presents.  This would explain why children systematically orient away from the target character, even if they are fixating on the target when they hear the disambiguating noun.
+
+Another possibility is that inhibitory control is playing a role in both Experiment 1 and Experiment 2.  In his investigation of children's early negative utterances, \citeA{pea1980} identified the development of self-prohibition as a critical step in children's acquisition of negation.  Although Pea was particularly interested in cases where a child succeeds in inhibiting their own actions after producing a self-prohibition, the opposite case is equally interesting in light of the results of the present studies.  Children who utter the word ``no'' while reaching towards a desired but forbidden object may understand the meaning of the word ``no,'' and understand that they are not supposed to touch what they are reaching for.  But in many cases these children still proceed with the prohibited action; although they understand the concept of prohibition, they do not have the inhibitory control necessary to stop their own actions. In our experiments, children may have be compelled to look to pictures that match named nouns, even when that noun has been negated. Under this explanation, a child who hears the phrase ``no apples'' will look to the picture of apples, and it may take children several seconds to orient to the correct picture.  It may be easier to inhibit this response in Experiment 2, when the correct alternative is equally salient.  This could explain three-year-old's poor performance in Experiment 1, but their improved performance after a delay in Experiment 2.  It is likely that certain naturalistic contexts alleviate inhibitory demands; for example, when a salient object disappears, or a strongly held expectation is violated.  
+
+Our current work suggests a possible synthesis of previous adult work on comprehension and developmental work on production.  In our experiments, children displayed a very different pattern of comprehension depending on the context in which the same sentence was presented.  Similarly, adults show faster comprehension when negative sentences are presented in a supportive context \cite<e.g.>{wason1965}. Further exploration of the role of pragmatics in negative sentence processing and the specific contexts which make negation salient for children is essential to understanding the development of children's comprehension of negation.  
+
+\bibliographystyle{apacite}
+\bibliography{negtracker}
+
+\end{document}
+
+
+% the issues of inhibitory control that arose in our experiments may be reduced. Future work should therefore examine the contexts in which children are most likely to hear or produce negations.
+
+
+% Although we made an attempt to situate our experimental negations in a context, these contexts were likely not as salient or as meaningful as the contexts naturally produced in an interaction with a parent or caregiver. 
+
+% Our experiments examined nonexistence negation, in which the negative sentence refers to the absence of an object. This type of negation is one of the earliest to emerge in children's production \cite{pea1980, bloom1970}.  Nevertheless, we found that 2- and 3- year old children struggled to identify the referent of these sentences, and only by age 4 were children able to correctly orient to the target picture upon hearing a negative sentence in both experiments.  It seems unlikely that these results were due to children's failure to understand the concept of nonexistence, given that many children produce nonexistence negation by age 2. 
+
+
+
+% A more likely explanation is that orienting to the target in these trials required greater inhibitory control because the target character is less interesting to children. This is an inherent part of nonexistence negation; by definition nonexistence refers to the absence of something.  It is likely that situations like this, where children are asked to identify a nonexistent referent alongside more salient alternatives, are more challenging than situations where a child describes her juice cup as having ``no more juice,'' where the nonexistence of juice is a salient feature.  
+
+% In Experiment 2, we addressed these concerns by creating a new set of stimuli in which the negative sentence referred to a person with different objects.  Thus, when children heard ``Look at the boy with no apples'' they were being asked to look at the boy holding presents.  This can potentially construed as denial or truth-functional negation, because instead of simply identifying the absence of an object, children must determine which picture matches the truth of the sentence.  In this experiment, while two-year-olds continued to struggle to comprehend negative sentences, three-year-olds and four-year-olds now both were able to correctly identify the referent of negative sentences.  
+
+% Although adults did not show the pattern that children displayed of initially orienting away from the target, they were slower to respond to negative sentences in Experiment 2 compared to Experiment 1.  Interestingly, this suggests that adults actually had more difficultly responding to negative sentences in Experiment 2 than in Experiment 1, unlike children, who showed comprehension at a younger age in Experiment 2.  As mentioned previously, it is possible that the negative utterances in Experiment 2 required more complex conceptual skills than the negation in Experiment 1.  While Experiment 1 only requires you to identify nonexistence, Experiment 2 requires you to evaluate the meaning of a denial negation and identify the picture for which that denial is true.  Perhaps this increased conceptual difficulty lead to slow response times even for adults, whereas for children, the greater inhibitory control required in Experiment 1 interfered with their ability to orient to the target even though the task was conceptually easy.  
+
+
+% In two studies, we found that children continue to struggle to comprehend negative sentences in certain contexts up through age 4.  These results are surprising, in part because most children begin producing negation before age 2 \cite{pea1980}.  In particular, children's pervasive difficulty with processing nonexistence negation (Experiment 1) is unexpected because nonexistence is one of the first types of negation that children begin to produce.  This work demonstrates that conceptual difficulty is not the only aspect of negation that should be considered when evaluating how complex a negative sentence is for a child.  Depending on the context that a sentence is presented in, even conceptually simple negative sentences may require a great deal of inhibitory control to comprehend.  Children struggle to identify ``nothing,'' or to look away from a named object, and recognizing this difficulty is an important step in understanding children's acquisition of negation.  
